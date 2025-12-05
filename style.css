@@ -763,4 +763,24 @@ footer {
     font-size: 1.4rem;
   }
 }
-   
+ 
+/* BASEウィジェットの商品枠用 */
+.product-iframe {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+/* 「今月のおすすめ」バッジ */
+.featured-label {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  padding: 4px 10px;
+  font-size: 0.8rem;
+  border-radius: 999px;
+  background: var(--accent);
+  color: #ffffff;
+  z-index: 2;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+}
